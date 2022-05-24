@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@playwright/test': ^1.21.0
   '@sveltejs/adapter-auto': next
+  '@sveltejs/adapter-node': 1.0.0-next.75
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': ^5.10.1
   '@typescript-eslint/parser': ^5.10.1
@@ -20,6 +21,7 @@ specifiers:
 devDependencies:
   '@playwright/test': 1.22.2
   '@sveltejs/adapter-auto': 1.0.0-next.47
+  '@sveltejs/adapter-node': 1.0.0-next.75
   '@sveltejs/kit': 1.0.0-next.343_svelte@3.48.0
   '@typescript-eslint/eslint-plugin': 5.26.0_gu4clceiw6ditaem5r577qrdpi
   '@typescript-eslint/parser': 5.26.0_utdtartgf6fqqgkivzeynh76la
@@ -147,6 +149,12 @@ packages:
       '@iarna/toml': 2.2.5
       esbuild: 0.14.39
       set-cookie-parser: 2.4.8
+      tiny-glob: 0.2.9
+    dev: true
+
+  /@sveltejs/adapter-node/1.0.0-next.75:
+    resolution: {integrity: sha512-UoA9k4h/3KnTZP9+03r/xxUxSLiKnM+C8UQzSM/g+E0ksy7Q+W8EqyTvq2Ff5/7DQNDZ3BsvrFcvDAZaT7YcfQ==}
+    dependencies:
       tiny-glob: 0.2.9
     dev: true
 
